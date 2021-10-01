@@ -23,13 +23,14 @@ https://docs.google.com/spreadsheets/d/18QbEoPFf3i-3y_hZxaRS-CCkRVyUc4AV4oRdK_sk
 
 ---
 
-## <center> Network Architecture </center>
-  
-<center>
+<div align="center">
+    <h2>
+       Network Architecture <br/>
+</div>
 
-![Network Architecture](./assets/network_arch.png)
-
-</center>
+<p align="center">
+<img src="./assets/network_arch.png"  style="height: 1000 px; width:800px;">
+</p>
 
 ---
 ## Components:
@@ -66,11 +67,11 @@ https://docs.google.com/spreadsheets/d/18QbEoPFf3i-3y_hZxaRS-CCkRVyUc4AV4oRdK_sk
 
 ## Activation Function:
 We have used sigmoid activation function for this neural network:
-<center>
 
-![Sigmoid and Sigmoid Derivation](./assets/activation.png)
+<p align="center">
+<img src="./assets/activation.png"  style="height: 500 px; width:300px;">
+</p>
 
-</center>
 
 ---
 ## Error
@@ -78,11 +79,10 @@ We have used sigmoid activation function for this neural network:
 * Etotal = E1 + E2 
 
 * Mean Square Error (MSE): 
-<center>
 
-![MSE](./assets/mse.png)
-
-</center>
+<p align="center">
+<img src="./assets/mse.png"  style="height: 500 px; width:300px;">
+</p>
 
 ---
 ## Derivations 
@@ -92,31 +92,25 @@ We have used sigmoid activation function for this neural network:
 ### Chain rule:
    In simpler terms, we can see that as parsing through layers. We first solve for one layer and move on to the next and next. For example: z= (x+y)^2, here the square is our first layer, we solve for that and move on to the (x+y) layer which is our second layer. If we had a co-efficient for x, then that would be solved next. 
 
-<center>
 
-![](./assets/solve_1.png)
+<p align="center">
+<img src="./assets/solve_1.png"  style="height: 800 px; width:500px;">
+</p>
 
-</center>
+<p align="center">
+<img src="./assets/solve_2.png"  style="height: 800 px; width:500px;">
+</p>
 
-<center>
+<p align="center">
+<img src="./assets/solve_3.png"  style="height: 800 px; width:500px;">
+</p>
 
-![](./assets/solve_2.png)
-
-</center>
-
-
-<center>
-
-![](./assets/solve_3.png)
-
-</center>
+    
+<p align="center">
+<img src="./assets/solve_4.png"  style="height: 800 px; width:500px;">
+</p>
 
 
-<center>
-
-![](./assets/solve_4.png)
-
-</center>
 
 ---
 ## Steps in forward propagation:
@@ -131,12 +125,13 @@ We have used sigmoid activation function for this neural network:
 
 * Partial differentiation is done at every stage. From error to the input layer using chain rule
 * For the backward propagation, the weights values needs to be updated by 
-<center>
 
-   ![Weights](./assets/weights_updation.png)
+<p align="center">
+<img src="./assets/weights_updation.png"  style="height: 500 px; width:300px;">
+</p>
 
-   </center>
-
+    
+    
 * In backward propagation, though our weights are initially randomized, we let the network to learn the weights values by updating them after each step
 * The backpropagation step provides an implementation of the chain rule
 * And the error values are calculated with the new updated weights
@@ -149,18 +144,50 @@ We have used sigmoid activation function for this neural network:
 
 * For different learning rates, the forward and backward propagation are done and tabulated below
 * When the learning rate is 2, the error seems to be low. The higher the learning rate, the network converged faster and less error is observed in this case. (Output nearer to the true values)
-<center>
 
-![](./assets/learning_rate_variations.png)
+    
+ 
+### Case 1 : Learning Rate at 0.1
+    
+<p align="center">
+<img src="./assets/0.1.png"  style="height: 800 px; width:500px;">
+</p>
 
-</center>
+### Case 2 : Learning Rate at 0.2
+    
+<p align="center">
+<img src="./assets/0.2.png"  style="height: 800 px; width:500px;">
+</p>
 
-## Screenshot
+### Case 3 : Learning Rate at 0.5
+    
+<p align="center">
+<img src="./assets/0.5.png"  style="height: 800 px; width:500px;">
+</p>
 
-<center>
+### Case 4 : Learning Rate at 0.8
+    
+<p align="center">
+<img src="./assets/0.8.png"  style="height: 800 px; width:500px;">
+</p>
 
-![Screenshot](./assets/excel_screenshot.png)
+### Case 5 : Learning Rate at 1.0
+    
+<p align="center">
+<img src="./assets/1.0.png"  style="height: 800 px; width:500px;">
+</p>
+    
+### Case 6 : Learning Rate at 2.0
+    
+<p align="center">
+<img src="./assets/2.0.png"  style="height: 800 px; width:500px;">
+</p>
+    
+    
+## Overview Screenshot
 
-</center>
-
+<p align="center">
+<img src="./assets/overview.png"  style="height: 1000 px; width:800px;">
+</p>
+    
 ---
