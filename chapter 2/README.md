@@ -14,7 +14,23 @@
 ---
 ## Table of Contents:
 ---
-
+- [Components:](#components-)
+- [Layers:](#layers-)
+- [Activation Function:](#activation-function-)
+- [Error](#error)
+- [Derivations](#derivations)
+  * [Partial derivative:](#partial-derivative-)
+  * [Chain rule:](#chain-rule-)
+- [Steps in forward propagation:](#steps-in-forward-propagation-)
+- [Steps in Backward Propagation:](#steps-in-backward-propagation-)
+- [Results & Inference:](#results---inference-)
+  * [Case 1 : Learning Rate at 0.1](#case-1---learning-rate-at-01)
+  * [Case 2 : Learning Rate at 0.2](#case-2---learning-rate-at-02)
+  * [Case 3 : Learning Rate at 0.5](#case-3---learning-rate-at-05)
+  * [Case 4 : Learning Rate at 0.8](#case-4---learning-rate-at-08)
+  * [Case 5 : Learning Rate at 1.0](#case-5---learning-rate-at-10)
+  * [Case 6 : Learning Rate at 2.0](#case-6---learning-rate-at-20)
+- [Overview Screenshot](#overview-screenshot)
 
 ### Excel Sheet Link:
 
