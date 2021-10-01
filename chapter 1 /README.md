@@ -40,7 +40,7 @@ The weights for each neuron are turned during the training stage such that the f
 Non-linear behavior in a neural network is accomplished by use of an activation function (often a sigmoid function) to which the output of ```f```is passed and modified. This allows neural networks to describe more complicated systems while still combining inputs in a simple fashion.
 
 <p align="center">
-<img src="../Session%201/assets/image_1.png"  style="height: 600 px; width:300px;">
+<img src="./assets/image_1.png"  style="height: 600 px; width:300px;">
 </p>
 
 ### <center><b>What is the use of the learning rate ?</b></center>
@@ -77,7 +77,7 @@ The algorithm is used to effectively train a neural network through a method cal
 Let's look at an example of how it works ?
 
 <p align="center">
-<img src="../Session%201/assets/image_2.png"  style="height: px; width:px;"/>
+<img src="./assets/image_2.png"  style="height: px; width:px;"/>
 </p>
 
 The a and x1,x2,x3 are vector, W is the matrix
@@ -85,7 +85,7 @@ The a and x1,x2,x3 are vector, W is the matrix
 Output is the
 
 <p align="center">
-<img src="../Session%201/assets/image_3.png"  style="height: px; width:px;"/>
+<img src="./assets/image_3.png"  style="height: px; width:px;"/>
 </p>
 
 How to use chain rule to compute ? this, ```dy/dW```
@@ -93,19 +93,19 @@ How to use chain rule to compute ? this, ```dy/dW```
 We do, 
 
 <p align="center">
-<img src="../Session%201/assets/image_4.png"  style="height: px; width:px;">
+<img src="./assets/image_4.png"  style="height: px; width:px;">
 </p>
 
 Take differentials of the three equations that you derived.
 
 <p align="center">
-<img src="../Session%201/assets/image_5.png"  style="height: px; width:px;">
+<img src="assets/image_5.png"  style="height: px; width:px;">
 </p>
 
 The desired gradient is a 3rd order tensor, use a vec-operation to flatten it into a matrix.
 
 <p align="center">
-<img src="../Session%201/assets/image_6.png"  style="height: px; width:px;">
+<img src="./assets//image_6.png"  style="height: px; width:px;">
 </p>
 
 ----
