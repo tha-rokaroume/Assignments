@@ -13,7 +13,7 @@
 
 ---
 ## Table of Contents:
----
+
 - [Components:](#components-)
 - [Layers:](#layers-)
 - [Activation Function:](#activation-function-)
