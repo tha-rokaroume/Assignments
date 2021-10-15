@@ -1,6 +1,6 @@
 <div align="center">
     <h1>
-       Chapter 3 : It Knows: How to Read <br/>
+       Chapter 3 : It Knows: how to read <br/>
 </div>
 
 ### This Document is Submitted as part of END 3 Session 3.
