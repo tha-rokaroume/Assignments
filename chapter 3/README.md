@@ -1,4 +1,27 @@
-# Assignment
+<div align="center">
+    <h1>
+       Chapter 3 : It Knows: How to Read <br/>
+</div>
+
+### This Document is Submitted as part of END 3 Session 3.
+
+## Contributors
+
+* [Seetharaman Sikamani](https://github.com/seetha1971)
+* [Umesh Birajdar](https://github.com/Umeshtriveni)
+* [Srikanth Kandarp](https://github.com/silicon-ninja)
+
+---
+## Table of Contents
+   
+- [Problem Statement](#problem-statement)
+- [Data Representation](#data-representation)
+- [Data Generation Strategy](#data-generation-strategy)
+- [Loss function](#loss-function)
+- [Result](#result) 
+   
+---
+## Problem Statement
 
 To write a neural network that can take two inputs:
 an image from MNIST dataset, and
